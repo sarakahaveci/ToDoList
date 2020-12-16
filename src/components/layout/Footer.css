@@ -175,4 +175,46 @@
 }
 
 @media screen and (max-width: 768px) {
+    footer-links {
+        padding-top: 1rem;
+    }
+
+    .footer-input {
+        width: 50%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+
+    .social-media-wrap {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 460px){
+    footer-links {
+        padding-top: 0.5rem;
+    }
+
+    .footer-input {
+        width: 30%;
+    }
+
+    .btn {
+        width: 30%;
+    }
+
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+
+    .social-media-wrap {
+        flex-direction: column;
+    }
+
+
 }
